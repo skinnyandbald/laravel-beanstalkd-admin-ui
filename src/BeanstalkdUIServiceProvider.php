@@ -18,7 +18,7 @@ class BeanstalkdUIServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/Resources/config/beanstalkdui.php', 'beanstalkdui');
 
         $this->app->bind(PheanstalkInterface::class, function () {
-            return new Pheanstalk(
+            return Pheanstalk::create(
                 config('beanstalkdui.host'),
                 config('beanstalkdui.port')
             );
