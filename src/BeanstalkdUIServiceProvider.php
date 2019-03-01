@@ -4,7 +4,7 @@ namespace Dionera\BeanstalkdUI;
 
 use Pheanstalk\Pheanstalk;
 use Illuminate\Routing\Router;
-use Pheanstalk\PheanstalkInterface;
+use Pheanstalk\Contract\PheanstalkInterface;
 use Illuminate\Support\ServiceProvider;
 use Dionera\BeanstalkdUI\ViewComposers\LayoutComposer;
 
