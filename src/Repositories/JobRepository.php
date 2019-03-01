@@ -2,7 +2,7 @@
 
 namespace Dionera\BeanstalkdUI\Repositories;
 
-use Pheanstalk\PheanstalkInterface;
+use Pheanstalk\Contract\PheanstalkInterface;
 use Pheanstalk\Job as PheanstalkJob;
 use Dionera\BeanstalkdUI\Models\Job;
 use Pheanstalk\Exception\ServerException;

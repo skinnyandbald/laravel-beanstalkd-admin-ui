@@ -3,7 +3,7 @@
 namespace spec\Dionera\BeanstalkdUI\Repositories;
 
 use PhpSpec\ObjectBehavior;
-use Pheanstalk\PheanstalkInterface;
+use Pheanstalk\Contract\PheanstalkInterface;
 use Pheanstalk\Job as PheanstalkJob;
 use Dionera\BeanstalkdUI\Models\Job;
 use Pheanstalk\Exception\ServerException;

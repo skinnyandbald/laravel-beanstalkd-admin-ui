@@ -3,7 +3,7 @@
 namespace Dionera\BeanstalkdUI\Controllers\Api;
 
 use Illuminate\Routing\Controller;
-use Pheanstalk\PheanstalkInterface;
+use Pheanstalk\Contract\PheanstalkInterface;
 use Pheanstalk\Exception\ServerException;
 
 class JobsController extends Controller
